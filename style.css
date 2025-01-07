@@ -1,0 +1,87 @@
+  /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Grid container for products */
+        #product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Styling for each product card */
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for product images */
+        .product-image {
+            width: 150px; /* Fixed width for uniform size */
+            height: 150px; /* Fixed height for uniform size */
+            object-fit: cover; /* Ensure images fit within the dimensions */
+            margin-bottom: 10px;
+        }
+
+        /* Styling for product name buttons */
+        .product-name {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 15px; /* More rounded corners */
+            cursor: pointer;
+            text-transform: capitalize;
+            display: block;
+            margin: 10px auto; /* Center the button horizontally */
+            width: 80%;
+        }
+
+        .product-name:hover {
+            background-color: #0056b3;
+        }
+
+        /* Styling for the details page */
+        #details-page {
+            display: none; /* Initially hidden */
+            padding: 20px;
+        }
+
+        .detail-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* General button styling */
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 15px; /* More rounded corners */
+            cursor: pointer;
+            display: block;
+            margin: 10px auto; /* Center the button horizontally */
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
